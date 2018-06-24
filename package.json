@@ -1,0 +1,28 @@
+{
+  "name": "k8s",
+  "version": "1.0.0",
+  "description": "k8s example",
+  "main": "app/server.js",
+  "scripts": {
+    "dev": "node app/server.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roll/k8s.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roll/k8s/issues"
+  },
+  "homepage": "https://github.com/roll/k8s#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
